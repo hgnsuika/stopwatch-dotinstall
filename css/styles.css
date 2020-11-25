@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', monospace;
+    font-size:14px;
+    background: rgb(214, 159, 159);
+}
+body  p {
+    font-weight:bold;
+}
+.container {
+    margin:20px auto;
+    width:270px;
+    background: rgb(172, 119, 119);
+    padding:15px;
+    text-align: center;
+}
+
+#timer {
+    background: rgb(219, 192, 192);
+    height: 120px;
+    line-height: 120px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width:80px;
+    height:45px;
+    line-height: 45px;
+    background: rgb(241, 137, 137);
+    font-weight: bold;
+    cursor:pointer;
+    user-select: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inactive {
+    opacity: 0.6;
+}
